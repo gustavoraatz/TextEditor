@@ -72,6 +72,13 @@ namespace TextEditor
             using (var file = new StreamWriter(path))
             {
                 file.Write(text);
+
+
+
+
+
+
+
             }
 
             Console.WriteLine($"Arquivo {path} salvo com sucesso!");
